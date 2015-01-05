@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin:*");
 $db_name = "webdb.db";
 //创建数据库文件,文件内容为空
 if (!file_exists($db_name)) {
